@@ -1,0 +1,51 @@
+body {
+ background-image: url('bg.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 1px 4px 0px 4px grey;
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa500, 0 0 40px #ffa500, 0 0 50px #ffa500, 0 0 60px #ffa500, 0 0 70px #ffa500;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff8c00, 0 0 40px #ff8c00, 0 0 50px #ff8c00, 0 0 60px #ff8c00, 0 0 70px #ff8c00, 0 0 80px #ff8c00;
+    }
+  }
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
